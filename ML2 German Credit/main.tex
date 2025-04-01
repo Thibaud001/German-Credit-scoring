@@ -30,7 +30,6 @@
 \begin{document}
 
 \maketitle
-\thispagestyle{empty}
 \newpage
 
 \section*{1. INTRODUCTION}
@@ -42,6 +41,8 @@ This task was inspired by the German Credit dataset presented \href{https://arch
 To tackle this challenge, we explored a series of preprocessing techniques, model selection strategies, and hyperparameter optimization methods. We tried tree-based methods (XGBoost and Random Forest) as well as Neural Networks, and our solution was an ensemble model of several random forest classifiers, with predictions based on a majority vote. Final results yielded an 83\% accuracy rate, as well as a 79\% F1-score. However, predictions still tend to favor the majority class, \texttt{No Risk}, which is detrimental to the quality of our work as missing risky individuals is much costlier than the opposite.
 
 In the following sections, we will detail the dataset, our EDA and preprocessing, our model development, our evaluation results, and the final conclusions.
+
+You'll find \href{https://github.com/Thibaud001/German-Credit-scoring}{here} a link to our GitHub — the files are german\_credit\_nn.ipynb for the Neural Network and Kaggle challenge.ipynb for the tree-based methods).
 
 \section*{2. EXPLORATORY DATA ANALYSIS}
 
